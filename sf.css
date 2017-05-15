@@ -1,0 +1,122 @@
+body {
+    margin : 0;
+    padding: 0;
+    overflow-X:hidden;
+}
+nav {
+    position: fixed;
+    display: inline-block;
+    border-bottom:2px solid grey;
+    width:100vw;
+}
+a {
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 22px 22px;
+    font-family: "Footlight MT Light";
+}
+a:hover{
+    background-color: silver;
+    color:blue ;
+    cursor: pointer;
+}
+.tk{
+    position: absolute;
+    right:0;
+}
+.prof_icon1{
+    height: 4vw;
+    top: 60vh;
+    position: absolute;
+    width: 4vw;
+    border-radius: 5px;
+    left: 20vw;
+}
+.prof_icon2{
+    position: absolute;
+    top: 60vh;
+    left:35vw;
+    height: 4vw;
+    width: 4vw;
+    border-radius: 5px;
+}
+.prof_icon3{
+    position: absolute;
+    top: 60vh;
+    left: 28vw;
+    height: 4vw;
+    width: 4vw;
+    border-radius: 5px;
+}
+.prof_icon1:hover {
+    height: 4.4vw;
+    width: 4.4vw;
+}
+.prof_icon2:hover {
+    height: 4.4vw;
+    width: 4.4vw;
+}
+.prof_icon3:hover {
+    height: 4.4vw;
+    width: 4.4vw;
+}
+video{
+    position:absolute;
+    right:0;
+    bottom:0;
+    min-width:100%;
+    min-height:100%;
+    width: auto;
+    height:auto;
+    z-index: 99;
+    overflow:hidden;
+    filter: brightness(70%);
+}
+#filter{
+    position:absolute;
+    width:100vw;
+    height: 100vh;
+    background-color: rbga(0, 0, 0, 0.7);
+    z-index:-50;
+    overflow: hidden;
+}
+#pp{
+    height: 50vh;
+    width: auto;
+    position: absolute;
+    left:70%;
+    transform: translateX(-50%);
+    top: 25%;
+    border-radius: 2px;
+    box-shadow: white;
+}
+#text{
+    font-size: 3em;
+    color: cornsilk;
+    position:absolute;
+    left:30%;
+    transform: translateX(-50%);
+    top:40%;
+}
+#text_acads{
+    font-size: 3em;
+    color: cornsilk;
+    position:absolute;
+    top:10%;
+    margin: 0 20px;
+
+}
+#gallery{
+   // border: 2px solid red;
+    width:80vw;
+    position: absolute;
+    top: 50vh;
+    left:10vw;
+    height:26vh;
+    overflow: hidden;
+}
+ul{
+    list-style: disc;
+}
